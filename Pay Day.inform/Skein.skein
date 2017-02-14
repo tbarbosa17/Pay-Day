@@ -9,7 +9,7 @@
 
 Pay Day
 An Interactive Fiction by Tessa Joy Barbosa
-Release 1 / Serial number 170213 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Floor
 Your coworker stands next to the register, waiting for another customer to arrive.
@@ -26,9 +26,9 @@ You can also see espresso shots and latte here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
-            <child nodeId="node-1009"></child>
-            <child nodeId="node-1007"></child>
+        <children><child nodeId="node-1016"></child>
+            <child nodeId="node-1015"></child>
+            <child nodeId="node-1013"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
@@ -39,7 +39,7 @@ You put Beans into Grinder.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1015"></child>
+        <children><child nodeId="node-1007"></child>
             <child nodeId="node-1004"></child>
         </children>
     </item>
@@ -68,25 +68,9 @@ You put Beans into Grinder.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1007">
         <command xml:space="preserve">grind beans</command>
         <result xml:space="preserve">What do you want to grind Beans in?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
-        </children>
-    </item>
-    <item nodeId="node-1016">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">You now have espresso shots!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1007">
-        <command xml:space="preserve">patrick</command>
-        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -94,11 +78,13 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1008">
-        <command xml:space="preserve">talk to patrick</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
     </item>
     <item nodeId="node-1009">
         <command xml:space="preserve">open fridge</command>
@@ -106,8 +92,60 @@ You put Beans into Grinder.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">combine milk</command>
+        <result xml:space="preserve">(with Milk)
+You can't combine Milk and Milk into anything useful.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">combine shots</command>
+        <result xml:space="preserve">(with Milk)
+You now have latte!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1013">
+        <command xml:space="preserve">patrick</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">talk to patrick</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1016">
         <command xml:space="preserve">grind beans in grinder</command>
         <result xml:space="preserve">You now have shots!
 

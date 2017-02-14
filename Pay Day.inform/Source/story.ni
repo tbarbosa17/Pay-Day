@@ -1,9 +1,20 @@
 "Pay Day" by Tessa Joy Barbosa
 
+When play begins: 
+    now left hand status line is "Exits: [exit list]"; 
+    now right hand status line is "[location]".
+To say exit list: 
+	let place be location; 
+	repeat with way running through directions: 
+		let place be the room way from the location; 
+		if place is a room, say " [way]".
+		[From get that cat by Douglas Kiang.]
 
+When play begins: say "It's only your second week working at the iconic starbucks, but you desperatey need your pay check. There is an unbeatable deal on the new iphone 7s, but you need your paycheck to pay for it! Someone changed the four number code to the safe, unfortunately, no one knows the new code to the safe. Try to find the code while you work!"
 
 Floor is a room.
-Patrick is a man in Floor."Your coworker stands next to the register, waiting for another customer to arrive.". [why doesnt it show correctly?]
+Patrick is a man in Floor."Your coworker stands next to the register, waiting for another customer to arrive.".
+
 Counter is a supporter in floor. Counter is scenery. Counter is undescribed. 
 Beans is a thing. Beans is on counter."The readied espresso beans sit waiting to be used on the counter."
 Grinder is a container. Grinder is on the counter. Grinder is fixed in place."The clean espresso bean grnder sits next to the espresso machine."
@@ -38,14 +49,15 @@ Carry out combining it with:
 	move the second noun to the floor.
 Report combining it with: 
 	say "You now have [an item built]!".
+	[taken from assasin]
 
 	
 Table of Outcome Objects
 component list			result   
 {beans, grinder}			shots
-{milk, shots}			latte
+{milk, shots}		latte
 
-[al above text is from assassin.]
+ [taken from assassin.]
 
 Lobby is a room. Lobby is west of Floor.
 
