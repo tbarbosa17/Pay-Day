@@ -11,7 +11,7 @@ It's only your second week working at the iconic starbucks, but you desperatey n
 
 Pay Day
 An Interactive Fiction by Tessa Joy Barbosa
-Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Floor
 Your coworker stands next to the register, waiting for another customer to arrive.
@@ -20,41 +20,40 @@ The readied espresso beans sit waiting to be used on the counter.
 
 The clean espresso bean grinder sits next to the espresso machine.
 
-On Counter is Espresso Machine (empty).
+On Counter are register (closed) and Espresso Machine (empty).
 
 The cleaned fridge is right udnerneath the counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
-            <child nodeId="node-1015"></child>
-            <child nodeId="node-1013"></child>
+        <children><child nodeId="node-1029"></child>
+            <child nodeId="node-1016"></child>
+            <child nodeId="node-1014"></child>
+            <child nodeId="node-1004"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
     <item nodeId="node-1003">
+        <command xml:space="preserve">x register</command>
+        <result xml:space="preserve">You see nothing special about register.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1004">
         <command xml:space="preserve">put beans in grinder</command>
         <result xml:space="preserve">(first taking Beans)
 You put Beans into Grinder.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1007"></child>
-            <child nodeId="node-1004"></child>
-        </children>
-    </item>
-    <item nodeId="node-1004">
-        <command xml:space="preserve">shots</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-1008"></child>
+            <child nodeId="node-1005"></child>
         </children>
     </item>
     <item nodeId="node-1005">
-        <command xml:space="preserve">combine shots and milk</command>
-        <result xml:space="preserve">You can't use multiple objects with that verb.
+        <command xml:space="preserve">shots</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -62,24 +61,24 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1006">
+        <command xml:space="preserve">combine shots and milk</command>
+        <result xml:space="preserve">You can't use multiple objects with that verb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
         <command xml:space="preserve">combine milk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1007">
+    <item nodeId="node-1008">
         <command xml:space="preserve">grind beans</command>
         <result xml:space="preserve">What do you want to grind Beans in?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1008"></child>
-        </children>
-    </item>
-    <item nodeId="node-1008">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">You now have espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -87,8 +86,8 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1009">
-        <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">You open Fridge, revealing Milk.
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -96,8 +95,8 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1010">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -105,9 +104,8 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1011">
-        <command xml:space="preserve">combine milk</command>
-        <result xml:space="preserve">(with Milk)
-You can't combine Milk and Milk into anything useful.
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -115,6 +113,16 @@ You can't combine Milk and Milk into anything useful.
         </children>
     </item>
     <item nodeId="node-1012">
+        <command xml:space="preserve">combine milk</command>
+        <result xml:space="preserve">(with Milk)
+You can't combine Milk and Milk into anything useful.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
         <command xml:space="preserve">combine shots</command>
         <result xml:space="preserve">(with Milk)
 You now have latte!
@@ -122,25 +130,52 @@ You now have latte!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1014">
         <command xml:space="preserve">patrick</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1015"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1015">
         <command xml:space="preserve">talk to patrick</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1016">
         <command xml:space="preserve">open fridge</command>
         <result xml:space="preserve">You open Fridge, revealing Milk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">take beans</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">put beans in grinder</command>
+        <result xml:space="preserve">You put Beans into Grinder.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -148,8 +183,9 @@ You now have latte!
         </children>
     </item>
     <item nodeId="node-1020">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">(in Milk)
+You can't combine Beans and Milk into anything useful.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -157,8 +193,8 @@ You now have latte!
         </children>
     </item>
     <item nodeId="node-1021">
-        <command xml:space="preserve">take beans</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">grind beans in grinder</command>
+        <result xml:space="preserve">You now have grounds!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -166,8 +202,8 @@ You now have latte!
         </children>
     </item>
     <item nodeId="node-1022">
-        <command xml:space="preserve">put beans in grinder</command>
-        <result xml:space="preserve">You put Beans into Grinder.
+        <command xml:space="preserve">take grounds</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -175,9 +211,8 @@ You now have latte!
         </children>
     </item>
     <item nodeId="node-1023">
-        <command xml:space="preserve">grind beans</command>
-        <result xml:space="preserve">(in Milk)
-You can't combine Beans and Milk into anything useful.
+        <command xml:space="preserve">put grounds in espresso machine</command>
+        <result xml:space="preserve">You put grounds into Espresso Machine.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -185,8 +220,9 @@ You can't combine Beans and Milk into anything useful.
         </children>
     </item>
     <item nodeId="node-1024">
-        <command xml:space="preserve">grind beans in grinder</command>
-        <result xml:space="preserve">You now have grounds!
+        <command xml:space="preserve">use espresso machine</command>
+        <result xml:space="preserve">(with grounds)
+You now have espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -194,8 +230,8 @@ You can't combine Beans and Milk into anything useful.
         </children>
     </item>
     <item nodeId="node-1025">
-        <command xml:space="preserve">take grounds</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">use espresso machine and grounds</command>
+        <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -203,60 +239,32 @@ You can't combine Beans and Milk into anything useful.
         </children>
     </item>
     <item nodeId="node-1026">
-        <command xml:space="preserve">put grounds in espresso machine</command>
-        <result xml:space="preserve">You put grounds into Espresso Machine.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1035"></child>
-        </children>
-    </item>
-    <item nodeId="node-1035">
-        <command xml:space="preserve">use espresso machine</command>
-        <result xml:space="preserve">(with grounds)
-You now have espresso shots!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1036"></child>
-        </children>
-    </item>
-    <item nodeId="node-1036">
-        <command xml:space="preserve">use espresso machine and grounds</command>
-        <result xml:space="preserve">You can't use multiple objects with that verb.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1037"></child>
-        </children>
-    </item>
-    <item nodeId="node-1037">
         <command xml:space="preserve">use grounds</command>
         <result xml:space="preserve">(with grounds)
 You can't combine grounds and grounds into anything useful.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1038"></child>
+        <children><child nodeId="node-1027"></child>
         </children>
     </item>
-    <item nodeId="node-1038">
+    <item nodeId="node-1027">
         <command xml:space="preserve">use grounds and espresso machine</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1028"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1028">
         <command xml:space="preserve">use grounds and espresso machine</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1016">
+    <item nodeId="node-1029">
         <command xml:space="preserve">grind beans in grinder</command>
         <result xml:space="preserve">You now have shots!
 

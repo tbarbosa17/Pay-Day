@@ -22,13 +22,16 @@ Instead of talking to Patrick: say "Patrick turns toward you and says cheerfully
 
 Counter is a supporter in floor. Counter is scenery. Counter is undescribed. 
 Beans is a thing. Beans is on counter."The readied espresso beans sit waiting to be used on the counter."
-Grinder is a container. Grinder is on the counter. Grinder is fixed in place."The clean espresso bean grinder sits next to the espresso machine."
-Espresso Machine is a container. Espresso machine is on counter. Espreso machine is fixed in place. "The espresso machine is clean and ready for use!" [why doesn't it use my description?]
-Fridge is a closed openable container in floor. Fridge is fixed in place. "The cleaned fridge is right udnerneath the counter."
-	Milk is thing inside fridge. 
-espresso shots is a thing in floor. espresso shots is undescribed.
-latte is a thing in floor. latte is undescribed.
-grounds is a thing in floor. grounds is undescribed.
+Money is  a thing. Money is in register. The description of money is "Clean and crisp dollar bills."
+Register is container on counter. Register is openable and closed. The description of register is "Just an ordinary register."
+Grinder is a container. Grinder is on the counter. Grinder is fixed in place."The clean espresso bean grinder sits next to the espresso machine." The description of grinder is "just an ordinary grinder."
+Espresso Machine is a container. Espresso machine is on counter. Espreso machine is fixed in place. "The espresso machine is clean and ready for use!" The description of espresso machine is "shiny, new and ready for use."
+Fridge is a closed openable container in floor. Fridge is fixed in place. "The cleaned fridge is right udnerneath the counter." The description of fridge is "There are milk stains runnig down the front."
+	Milk is thing inside fridge. The description of milk is "good ol' gallon of 2% milk."
+Espresso shots is a thing in floor. espresso shots is undescribed. 
+Latte is a thing in floor. latte is undescribed.
+Grounds is a thing in floor. grounds is undescribed.
+
 
 Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two things.  [Taken from assaissin]
 
@@ -67,16 +70,26 @@ component list			result
 {milk, shots}			latte
  [taken from assassin.]
 
-Lobby is a room. Lobby is west of Floor.
-
+Lobby is a room. Lobby is west of Floor."The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today."
+Chairs is an enterable supporter in lobby. The description of chairs is "old but sturdy."
+Tables is a supporter in lobby. "Just a normal table."
+Condiment is a supporter in lobby. 
 
 Bathroom is a room. Bathroom is south of Lobby.
+Toilet is enterable supporter in the bathroom. 
+Toilet paper is thing in the bathroom.
+Sink is a thing in the bathroom. Sink is fixed in place.
 
 Patio is a room. Patio is west of Lobby.
+Wicker chairs is enterable supporter in patio. 
+Metal table is a enterable supporter in patio.
 
-Dumpster Area is a room. Dumpster Area is north of Patio. 
+Dump is a room. Dump is north of Patio. 
+Dumpster is container in Dump. Dumpster is openable and closed. 
 
-Ice room is a room. Ice room is east of floor.
+cold room is a room. cold room is east of floor.
+Icemachine is container in cold room. Icemachine is openable and closed. [printed name is?]
+Ice is a thing in icemachine.
 
 Back storage is a room. Back storage is north of ice room.
 
