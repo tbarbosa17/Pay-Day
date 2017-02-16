@@ -31,6 +31,7 @@ Fridge is a closed openable container in floor. Fridge is fixed in place. "The c
 Espresso shots is a thing in floor. espresso shots is undescribed. 
 Latte is a thing in floor. latte is undescribed.
 Grounds is a thing in floor. grounds is undescribed.
+pumpkin spice latte is a thing. pumkin spice latte is in floor. pumpkin spice latte is undescribed. 
 
 
 Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two things.  [Taken from assaissin]
@@ -68,6 +69,7 @@ component list			result
 {beans, grinder}			grounds
 {espresso machine, grounds}			espresso shots
 {milk, shots}			latte
+{latte, pumpkin spice}			Pumpkin spice latte
  [taken from assassin.]
 
 Lobby is a room. Lobby is west of Floor."The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today."
@@ -88,13 +90,17 @@ Dump is a room. Dump is north of Patio.
 Dumpster is container in Dump. Dumpster is openable and closed. 
 
 cold room is a room. cold room is east of floor.
-Icemachine is container in cold room. Icemachine is openable and closed. [printed name is?]
-Ice is a thing in icemachine.
+Icemachine is container in cold room. Icemachine is openable and closed. The printed name of Icemachine is "Ice machine"
 
 Back storage is a room. Back storage is north of ice room.
+Cabinet is a container. cabinet is in Back storage. cabinet is openable and closed. Cabinet is lockable and locked. 
+Pumpkin spice is a thing. Pumpkin spice is in Cabinet. 
 
-Break room is a room. Break room is east of back storage.
+Key unlocks cabinet. Key is in apron.
+
+Break room is a room. Break room is east of back storage. "The famiiar space has a desk, and a coat rack in the corner. There is a lone apron hangind in the corner on the coat rack. There seems to be a pot it with writing on the desk."
 Post-it is thing in Break room. "There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. I promised him a pumpkin spice latte on the house, so make sure it is ready for him!"
+Apron is a container. Apron is in break room. Apron is openable and open. 
 
 Dish room is a room. Dish room is south of break room. 
 
