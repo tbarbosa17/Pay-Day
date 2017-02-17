@@ -1,5 +1,7 @@
 "Pay Day" by Tessa Joy Barbosa
 
+
+
 When play begins: 
     now left hand status line is "Exits: [exit list]"; 
     now right hand status line is "[location]".
@@ -9,10 +11,27 @@ To say exit list:
 		let place be the room way from the location; 
 		if place is a room, say " [way]".
 		[From get that cat by Douglas Kiang.]
+		
+
+Rule for deciding whether all includes something: it does not.
+
+When play begins:
+	now the right hand status line is "[time of day]";
+	now time of day is 11:30 am.
+	
+Before looking or taking inventory:
+			now the time of day is one minute before the time of day.
+			
+At 1:15 pm: 
+	if player has psl:
+		say "An important looking man just walked into the lobby, it might be Riley with the code!";
+	if player does not have psl:
+		end the story finally.
+[time from inform handbook by Jim Aikin.]
 
 When play begins: say "It's only your second week working at the iconic starbucks, but you desperatey need your pay check. There is an unbeatable deal on the new iphone 7s, but you need your paycheck to pay for it! Someone changed the four number code to the safe, unfortunately, no one knows the new code to the safe. You need to find the code in order to get your paycheck and the sweet deal on the iphone 7s..."
 
-Floor is a room.
+Floor is a room. [add description]
 Patrick is a man in Floor."Your coworker stands next to the register, waiting for another customer to arrive."
 
 Talking to is an action applying to one visible thing.
@@ -31,8 +50,7 @@ Fridge is a closed openable container in floor. Fridge is fixed in place. "The c
 Espresso shots is a thing in floor. espresso shots is undescribed. 
 Latte is a thing in floor. latte is undescribed.
 Grounds is a thing in floor. grounds is undescribed.
-pumpkin spice latte is a thing. pumkin spice latte is in floor. pumpkin spice latte is undescribed. 
-
+psl is a thing. psl is in floor. psl is undescribed. The printed name of psl is "Pumpkin spice latte". Understand "pumpkin spice latte" as psl.
 
 Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two things.  [Taken from assaissin]
 
@@ -61,7 +79,7 @@ Carry out combining it with:
 	move the second noun to the floor.
 Report combining it with: 
 	say "You now have [an item built]!".
-	[taken from assasin]
+	[taken from assasin.]
 
 	
 Table of Outcome Objects
@@ -69,13 +87,17 @@ component list			result
 {beans, grinder}			grounds
 {espresso machine, grounds}			espresso shots
 {milk, shots}			latte
-{latte, pumpkin spice}			Pumpkin spice latte
+{latte, pumpkin spice}			psl
  [taken from assassin.]
+
+
 
 Lobby is a room. Lobby is west of Floor."The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today."
 Chairs is an enterable supporter in lobby. The description of chairs is "old but sturdy."
 Tables is a supporter in lobby. "Just a normal table."
 Condiment is a supporter in lobby. 
+Riley is a man. Riley is in lobby. Riley is undescribed."An important lookig man just walked into the lobby, it might be Riley with the code!"
+
 
 Bathroom is a room. Bathroom is south of Lobby.
 Toilet is enterable supporter in the bathroom. 
@@ -90,16 +112,17 @@ Dump is a room. Dump is north of Patio.
 Dumpster is container in Dump. Dumpster is openable and closed. 
 
 cold room is a room. cold room is east of floor.
-Icemachine is container in cold room. Icemachine is openable and closed. The printed name of Icemachine is "Ice machine"
+ice is a thing. ice is inside icemachine.
+Icemachine is container in cold room. Icemachine is openable and closed. The printed name of Icemachine is "Ice machine". Understand "ice machine" as icemachine.
 
-Back storage is a room. Back storage is north of ice room.
+Back storage is a room. Back storage is north of cold room.
 Cabinet is a container. cabinet is in Back storage. cabinet is openable and closed. Cabinet is lockable and locked. 
 Pumpkin spice is a thing. Pumpkin spice is in Cabinet. 
 
 Key unlocks cabinet. Key is in apron.
 
 Break room is a room. Break room is east of back storage. "The famiiar space has a desk, and a coat rack in the corner. There is a lone apron hangind in the corner on the coat rack. There seems to be a pot it with writing on the desk."
-Post-it is thing in Break room. "There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. I promised him a pumpkin spice latte on the house, so make sure it is ready for him!"
+Post-it is thing in Break room. "There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. His name is Riley. I promised him a pumpkin spice latte on the house, so make sure it is ready for him!"
 Apron is a container. Apron is in break room. Apron is openable and open. 
 
 Dish room is a room. Dish room is south of break room. 
