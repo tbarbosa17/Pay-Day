@@ -24,7 +24,7 @@ Before looking or taking inventory:
 			
 At 1:15 pm: 
 	if player does not have psl:
-		end the story finally.
+		end the story saying "You didn't have make the pumpkn spice latte in time for Cole!"
 [time from inform handbook by Jim Aikin.]
 	
 

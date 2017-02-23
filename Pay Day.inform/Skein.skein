@@ -11,7 +11,7 @@ It's only your second week working at the iconic starbucks, but you desperatey n
 
 Pay Day
 An Interactive Fiction by Tessa Joy Barbosa
-Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170223 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Floor
 You are in a clean, open room with various coffee machines and aparatuses. Your co worker stands by the register in the room.
@@ -30,16 +30,16 @@ The cleaned fridge is right underneath the counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1165"></child>
-            <child nodeId="node-1117"></child>
-            <child nodeId="node-1116"></child>
-            <child nodeId="node-1092"></child>
-            <child nodeId="node-1079"></child>
-            <child nodeId="node-1077"></child>
+        <children><child nodeId="node-1218"></child>
+            <child nodeId="node-1170"></child>
+            <child nodeId="node-1169"></child>
+            <child nodeId="node-1145"></child>
+            <child nodeId="node-1083"></child>
+            <child nodeId="node-1081"></child>
+            <child nodeId="node-1071"></child>
+            <child nodeId="node-1068"></child>
             <child nodeId="node-1067"></child>
-            <child nodeId="node-1064"></child>
-            <child nodeId="node-1063"></child>
-            <child nodeId="node-1038"></child>
+            <child nodeId="node-1042"></child>
             <child nodeId="node-1004"></child>
             <child nodeId="node-1003"></child>
         </children>
@@ -97,8 +97,8 @@ This small room only hold an ice machine in the corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1008"></child>
-            <child nodeId="node-1171"></child>
+        <children><child nodeId="node-1012"></child>
+            <child nodeId="node-1008"></child>
             <child nodeId="node-1007"></child>
         </children>
     </item>
@@ -109,16 +109,16 @@ This small room only hold an ice machine in the corner.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1171">
+    <item nodeId="node-1008">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1172"></child>
+        <children><child nodeId="node-1009"></child>
         </children>
     </item>
-    <item nodeId="node-1172">
+    <item nodeId="node-1009">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Back storage
@@ -126,10 +126,10 @@ Someone hasn't been ordering new ingredients! The shelves are completely empty, 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1173"></child>
+        <children><child nodeId="node-1010"></child>
         </children>
     </item>
-    <item nodeId="node-1173">
+    <item nodeId="node-1010">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
@@ -139,17 +139,17 @@ There is a small orange post it on the desk. It reads: Heard you needed your pay
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1174"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-1174">
+    <item nodeId="node-1011">
         <command xml:space="preserve">x apron</command>
         <result xml:space="preserve">A grean apron. There seems to be a key in the pocket. It might come in handy later.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1008">
+    <item nodeId="node-1012">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Back storage
@@ -157,10 +157,10 @@ You can see Cabinet (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1009"></child>
+        <children><child nodeId="node-1013"></child>
         </children>
     </item>
-    <item nodeId="node-1009">
+    <item nodeId="node-1013">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
@@ -172,38 +172,38 @@ You can also see apron here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1010"></child>
+        <children><child nodeId="node-1014"></child>
         </children>
     </item>
-    <item nodeId="node-1010">
+    <item nodeId="node-1014">
         <command xml:space="preserve">look inside apron</command>
         <result xml:space="preserve">Apron is empty.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1011"></child>
+        <children><child nodeId="node-1015"></child>
         </children>
     </item>
-    <item nodeId="node-1011">
+    <item nodeId="node-1015">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1016"></child>
         </children>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1016">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Dish room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
+        <children><child nodeId="node-1017"></child>
         </children>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1017">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Break room
@@ -215,10 +215,10 @@ You can also see apron (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1018"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1018">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Back storage
@@ -226,52 +226,13 @@ You can see Cabinet (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1015"></child>
-        </children>
-    </item>
-    <item nodeId="node-1015">
-        <command xml:space="preserve">unlock cabinet</command>
-        <result xml:space="preserve">(with Key)
-You unlock Cabinet.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
-        </children>
-    </item>
-    <item nodeId="node-1016">
-        <command xml:space="preserve">open</command>
-        <result xml:space="preserve">(Key)
-It isn't something you can open.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1017"></child>
-        </children>
-    </item>
-    <item nodeId="node-1017">
-        <command xml:space="preserve">open cabinet</command>
-        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
-        </children>
-    </item>
-    <item nodeId="node-1018">
-        <command xml:space="preserve">take pumpkin spice</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1019"></child>
         </children>
     </item>
     <item nodeId="node-1019">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-cold room
-You can see Ice machine (closed) here.
+        <command xml:space="preserve">unlock cabinet</command>
+        <result xml:space="preserve">(with Key)
+You unlock Cabinet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -279,6 +240,45 @@ You can see Ice machine (closed) here.
         </children>
     </item>
     <item nodeId="node-1020">
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">(Key)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">take pumpkin spice</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1023"></child>
+        </children>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold room
+You can see Ice machine (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Floor
@@ -294,48 +294,12 @@ The cleaned fridge is right udnerneath the counter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1021"></child>
-        </children>
-    </item>
-    <item nodeId="node-1021">
-        <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">You open Fridge, revealing Milk.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
-        </children>
-    </item>
-    <item nodeId="node-1022">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
-        </children>
-    </item>
-    <item nodeId="node-1023">
-        <command xml:space="preserve">take beans</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
-        </children>
-    </item>
-    <item nodeId="node-1024">
-        <command xml:space="preserve">grind beans</command>
-        <result xml:space="preserve">What do you want to grind Beans in?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1025"></child>
         </children>
     </item>
     <item nodeId="node-1025">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">You now have Grounds!
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -343,8 +307,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1026">
-        <command xml:space="preserve">take grounds</command>
-        <result xml:space="preserve">You already have that.
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -352,9 +316,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1027">
-        <command xml:space="preserve">use grounds</command>
-        <result xml:space="preserve">(with Grounds)
-You can't combine Grounds and Grounds into anything useful.
+        <command xml:space="preserve">take beans</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -362,8 +325,8 @@ You can't combine Grounds and Grounds into anything useful.
         </children>
     </item>
     <item nodeId="node-1028">
-        <command xml:space="preserve">use expresso machine</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">What do you want to grind Beans in?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -371,8 +334,8 @@ You can't combine Grounds and Grounds into anything useful.
         </children>
     </item>
     <item nodeId="node-1029">
-        <command xml:space="preserve">use esspresso machine</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have Grounds!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -380,9 +343,8 @@ You can't combine Grounds and Grounds into anything useful.
         </children>
     </item>
     <item nodeId="node-1030">
-        <command xml:space="preserve">use espresso machine</command>
-        <result xml:space="preserve">(with Grounds)
-You now have Espresso shots!
+        <command xml:space="preserve">take grounds</command>
+        <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -390,9 +352,9 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1031">
-        <command xml:space="preserve">take espresso</command>
-        <result xml:space="preserve">(Espresso Machine)
-Taken.
+        <command xml:space="preserve">use grounds</command>
+        <result xml:space="preserve">(with Grounds)
+You can't combine Grounds and Grounds into anything useful.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -400,8 +362,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1032">
-        <command xml:space="preserve">combine milk and espresso shots</command>
-        <result xml:space="preserve">You can't use multiple objects with that verb.
+        <command xml:space="preserve">use expresso machine</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -409,8 +371,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1033">
-        <command xml:space="preserve">combine milk</command>
-        <result xml:space="preserve">What do you want to combine Milk with?
+        <command xml:space="preserve">use esspresso machine</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -418,8 +380,9 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1034">
-        <command xml:space="preserve">espresso shots</command>
-        <result xml:space="preserve">You now have Latte!
+        <command xml:space="preserve">use espresso machine</command>
+        <result xml:space="preserve">(with Grounds)
+You now have Espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -427,8 +390,9 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1035">
-        <command xml:space="preserve">combine latte</command>
-        <result xml:space="preserve">What do you want to combine Latte with?
+        <command xml:space="preserve">take espresso</command>
+        <result xml:space="preserve">(Espresso Machine)
+Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -436,8 +400,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1036">
-        <command xml:space="preserve">pumpkin spice</command>
-        <result xml:space="preserve">You now have Pumpkin spice latte!
+        <command xml:space="preserve">combine milk and espresso shots</command>
+        <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -445,15 +409,17 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1037">
-        <command xml:space="preserve">take pumpkin spice latte</command>
-        <result xml:space="preserve">You already have that.
+        <command xml:space="preserve">combine milk</command>
+        <result xml:space="preserve">What do you want to combine Milk with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
     </item>
     <item nodeId="node-1038">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">espresso shots</command>
+        <result xml:space="preserve">You now have Latte!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -461,8 +427,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1039">
-        <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">You open Fridge, revealing Milk.
+        <command xml:space="preserve">combine latte</command>
+        <result xml:space="preserve">What do you want to combine Latte with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -470,8 +436,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1040">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">pumpkin spice</command>
+        <result xml:space="preserve">You now have Pumpkin spice latte!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -479,17 +445,15 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1041">
-        <command xml:space="preserve">take beans</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">take pumpkin spice latte</command>
+        <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
-        </children>
     </item>
     <item nodeId="node-1042">
-        <command xml:space="preserve">grind beans</command>
-        <result xml:space="preserve">What do you want to grind Beans in?
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -497,8 +461,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1043">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">You now have Grounds!
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -506,8 +470,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1044">
-        <command xml:space="preserve">take grounds</command>
-        <result xml:space="preserve">You already have that.
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -515,9 +479,8 @@ Taken.
         </children>
     </item>
     <item nodeId="node-1045">
-        <command xml:space="preserve">use espresso machine</command>
-        <result xml:space="preserve">(with Grounds)
-You now have Espresso shots!
+        <command xml:space="preserve">take beans</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -525,8 +488,8 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1046">
-        <command xml:space="preserve">take espresso shots</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">What do you want to grind Beans in?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -534,8 +497,8 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1047">
-        <command xml:space="preserve">combine espresso shots with milk</command>
-        <result xml:space="preserve">You now have Latte!
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have Grounds!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -543,6 +506,43 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1048">
+        <command xml:space="preserve">take grounds</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">use espresso machine</command>
+        <result xml:space="preserve">(with Grounds)
+You now have Espresso shots!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">take espresso shots</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+        </children>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">combine espresso shots with milk</command>
+        <result xml:space="preserve">You now have Latte!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Lobby
@@ -554,10 +554,10 @@ You can also see Chairs and Condiment here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1049"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-1049">
+    <item nodeId="node-1053">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Floor
@@ -573,10 +573,10 @@ You can also see Milk, Espresso shots, Grounds, Espresso Machine (empty) and Bea
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1050"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-1050">
+    <item nodeId="node-1054">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 cold room
@@ -584,10 +584,10 @@ You can see Ice machine (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1051"></child>
+        <children><child nodeId="node-1055"></child>
         </children>
     </item>
-    <item nodeId="node-1051">
+    <item nodeId="node-1055">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Back storage
@@ -595,19 +595,19 @@ You can see Cabinet (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1052"></child>
+        <children><child nodeId="node-1056"></child>
         </children>
     </item>
-    <item nodeId="node-1052">
+    <item nodeId="node-1056">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1053"></child>
+        <children><child nodeId="node-1057"></child>
         </children>
     </item>
-    <item nodeId="node-1053">
+    <item nodeId="node-1057">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
@@ -619,50 +619,12 @@ You can also see apron here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1054"></child>
-        </children>
-    </item>
-    <item nodeId="node-1054">
-        <command xml:space="preserve">take key</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1055"></child>
-        </children>
-    </item>
-    <item nodeId="node-1055">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Back storage
-You can see Cabinet (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1056"></child>
-        </children>
-    </item>
-    <item nodeId="node-1056">
-        <command xml:space="preserve">unlock cabinet</command>
-        <result xml:space="preserve">What do you want to unlock Cabinet with?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1057"></child>
-        </children>
-    </item>
-    <item nodeId="node-1057">
-        <command xml:space="preserve">key</command>
-        <result xml:space="preserve">You unlock Cabinet.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1058"></child>
         </children>
     </item>
     <item nodeId="node-1058">
-        <command xml:space="preserve">open</command>
-        <result xml:space="preserve">What do you want to open?
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -670,8 +632,10 @@ You can see Cabinet (closed) here.
         </children>
     </item>
     <item nodeId="node-1059">
-        <command xml:space="preserve">cabinet</command>
-        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Back storage
+You can see Cabinet (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -679,8 +643,8 @@ You can see Cabinet (closed) here.
         </children>
     </item>
     <item nodeId="node-1060">
-        <command xml:space="preserve">take pumpkin spice</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">unlock cabinet</command>
+        <result xml:space="preserve">What do you want to unlock Cabinet with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -688,8 +652,8 @@ You can see Cabinet (closed) here.
         </children>
     </item>
     <item nodeId="node-1061">
-        <command xml:space="preserve">combine pumpkin spice</command>
-        <result xml:space="preserve">What do you want to combine Pumpkin spice with?
+        <command xml:space="preserve">key</command>
+        <result xml:space="preserve">You unlock Cabinet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -697,6 +661,42 @@ You can see Cabinet (closed) here.
         </children>
     </item>
     <item nodeId="node-1062">
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">What do you want to open?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">cabinet</command>
+        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">take pumpkin spice</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">combine pumpkin spice</command>
+        <result xml:space="preserve">What do you want to combine Pumpkin spice with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
         <command xml:space="preserve">latte</command>
         <result xml:space="preserve">You now have Pumpkin spice latte!
 An important looking man just walked into the lobby, it might be Riley with the code!
@@ -704,7 +704,7 @@ An important looking man just walked into the lobby, it might be Riley with the 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1063">
+    <item nodeId="node-1067">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">pumkin spice latte: Taken.
 Beans: Taken.
@@ -714,45 +714,9 @@ Espresso Machine: Taken.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1064">
+    <item nodeId="node-1068">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">What do you want to take?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1065"></child>
-        </children>
-    </item>
-    <item nodeId="node-1065">
-        <command xml:space="preserve">x patrick</command>
-        <result xml:space="preserve">You see nothing special about Patrick.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1066"></child>
-        </children>
-    </item>
-    <item nodeId="node-1066">
-        <command xml:space="preserve">talk to patrick</command>
-        <result xml:space="preserve">Patrick turns toward you and says cheerfully "Hey good to see you again! I think that the boss man left a note for you in the break room, something about a guy coming in to drop off the new safe code?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1067">
-        <command xml:space="preserve">put beans in grinder</command>
-        <result xml:space="preserve">(first taking Beans)
-You put Beans into Grinder.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1071"></child>
-            <child nodeId="node-1068"></child>
-        </children>
-    </item>
-    <item nodeId="node-1068">
-        <command xml:space="preserve">shots</command>
-        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -760,8 +724,8 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1069">
-        <command xml:space="preserve">combine shots and milk</command>
-        <result xml:space="preserve">You can't use multiple objects with that verb.
+        <command xml:space="preserve">x patrick</command>
+        <result xml:space="preserve">You see nothing special about Patrick.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -769,24 +733,26 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1070">
-        <command xml:space="preserve">combine milk</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">talk to patrick</command>
+        <result xml:space="preserve">Patrick turns toward you and says cheerfully "Hey good to see you again! I think that the boss man left a note for you in the break room, something about a guy coming in to drop off the new safe code?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1071">
-        <command xml:space="preserve">grind beans</command>
-        <result xml:space="preserve">What do you want to grind Beans in?
+        <command xml:space="preserve">put beans in grinder</command>
+        <result xml:space="preserve">(first taking Beans)
+You put Beans into Grinder.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1072"></child>
+        <children><child nodeId="node-1075"></child>
+            <child nodeId="node-1072"></child>
         </children>
     </item>
     <item nodeId="node-1072">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">You now have espresso shots!
+        <command xml:space="preserve">shots</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -794,8 +760,8 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1073">
-        <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">You open Fridge, revealing Milk.
+        <command xml:space="preserve">combine shots and milk</command>
+        <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -803,18 +769,15 @@ You put Beans into Grinder.
         </children>
     </item>
     <item nodeId="node-1074">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">combine milk</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
-        </children>
     </item>
     <item nodeId="node-1075">
-        <command xml:space="preserve">combine milk</command>
-        <result xml:space="preserve">(with Milk)
-You can't combine Milk and Milk into anything useful.
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">What do you want to grind Beans in?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -822,16 +785,17 @@ You can't combine Milk and Milk into anything useful.
         </children>
     </item>
     <item nodeId="node-1076">
-        <command xml:space="preserve">combine shots</command>
-        <result xml:space="preserve">(with Milk)
-You now have latte!
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
     </item>
     <item nodeId="node-1077">
-        <command xml:space="preserve">patrick</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -839,96 +803,132 @@ You now have latte!
         </children>
     </item>
     <item nodeId="node-1078">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">combine milk</command>
+        <result xml:space="preserve">(with Milk)
+You can't combine Milk and Milk into anything useful.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">combine shots</command>
+        <result xml:space="preserve">(with Milk)
+You now have latte!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">patrick</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
         <command xml:space="preserve">talk to patrick</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1083">
         <command xml:space="preserve">open fridge</command>
         <result xml:space="preserve">You open Fridge, revealing Milk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1080"></child>
-            <child nodeId="node-1216"></child>
+        <children><child nodeId="node-1113"></child>
+            <child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-1216">
+    <item nodeId="node-1084">
         <command xml:space="preserve">take milke</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1217"></child>
+        <children><child nodeId="node-1085"></child>
         </children>
     </item>
-    <item nodeId="node-1217">
+    <item nodeId="node-1085">
         <command xml:space="preserve">take milk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1218"></child>
+        <children><child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-1218">
+    <item nodeId="node-1086">
         <command xml:space="preserve">take beans</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1219"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-1219">
+    <item nodeId="node-1087">
         <command xml:space="preserve">grind beans</command>
         <result xml:space="preserve">What do you want to grind Beans in?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1220"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1220">
+    <item nodeId="node-1088">
         <command xml:space="preserve">grinder</command>
         <result xml:space="preserve">You now have Grounds!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1221"></child>
+        <children><child nodeId="node-1089"></child>
         </children>
     </item>
-    <item nodeId="node-1221">
+    <item nodeId="node-1089">
         <command xml:space="preserve">use espresso machine</command>
         <result xml:space="preserve">(with Grounds)
 You now have Espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1222"></child>
+        <children><child nodeId="node-1090"></child>
         </children>
     </item>
-    <item nodeId="node-1222">
+    <item nodeId="node-1090">
         <command xml:space="preserve">combine shots</command>
         <result xml:space="preserve">What do you want to combine Espresso shots with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1223"></child>
+        <children><child nodeId="node-1091"></child>
         </children>
     </item>
-    <item nodeId="node-1223">
+    <item nodeId="node-1091">
         <command xml:space="preserve">milk</command>
         <result xml:space="preserve">You now have Latte!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1224"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-1224">
+    <item nodeId="node-1092">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 cold room
@@ -936,10 +936,10 @@ This small room only hold an ice machine in the corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1225"></child>
+        <children><child nodeId="node-1093"></child>
         </children>
     </item>
-    <item nodeId="node-1225">
+    <item nodeId="node-1093">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Back storage
@@ -947,10 +947,10 @@ Someone hasn't been ordering new ingredients! The shelves are completely empty, 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1226"></child>
+        <children><child nodeId="node-1094"></child>
         </children>
     </item>
-    <item nodeId="node-1226">
+    <item nodeId="node-1094">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
@@ -960,19 +960,19 @@ There is a small orange post it on the desk. It reads: Heard you needed your pay
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1227"></child>
+        <children><child nodeId="node-1095"></child>
         </children>
     </item>
-    <item nodeId="node-1227">
+    <item nodeId="node-1095">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1228"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-1228">
+    <item nodeId="node-1096">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Back storage
@@ -980,74 +980,74 @@ Someone hasn't been ordering new ingredients! The shelves are completely empty, 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1229"></child>
+        <children><child nodeId="node-1097"></child>
         </children>
     </item>
-    <item nodeId="node-1229">
+    <item nodeId="node-1097">
         <command xml:space="preserve">unlock cabinet</command>
         <result xml:space="preserve">What do you want to unlock Cabinet with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1230"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-1230">
+    <item nodeId="node-1098">
         <command xml:space="preserve">key</command>
         <result xml:space="preserve">You unlock Cabinet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1231"></child>
+        <children><child nodeId="node-1099"></child>
         </children>
     </item>
-    <item nodeId="node-1231">
+    <item nodeId="node-1099">
         <command xml:space="preserve">open cabinet</command>
         <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1232"></child>
+        <children><child nodeId="node-1100"></child>
         </children>
     </item>
-    <item nodeId="node-1232">
+    <item nodeId="node-1100">
         <command xml:space="preserve">take pumpkin spice</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1233"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-1233">
+    <item nodeId="node-1101">
         <command xml:space="preserve">combine pumpkin spice</command>
         <result xml:space="preserve">What do you want to combine Pumpkin spice with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1234"></child>
+        <children><child nodeId="node-1102"></child>
         </children>
     </item>
-    <item nodeId="node-1234">
+    <item nodeId="node-1102">
         <command xml:space="preserve">latte</command>
         <result xml:space="preserve">You now have Pumpkin spice latte!
 An important looking man just walked into the lobby, it might be Cole with the code!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1235"></child>
+        <children><child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-1235">
+    <item nodeId="node-1103">
         <command xml:space="preserve">go to lobby</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1236"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-1236">
+    <item nodeId="node-1104">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 cold room
@@ -1055,10 +1055,10 @@ This small room only hold an ice machine in the corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1237"></child>
+        <children><child nodeId="node-1105"></child>
         </children>
     </item>
-    <item nodeId="node-1237">
+    <item nodeId="node-1105">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Floor
@@ -1078,10 +1078,10 @@ You can also see Latte, Pumpkin spice, Milk, Espresso shots, Grounds and Beans h
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1238"></child>
+        <children><child nodeId="node-1106"></child>
         </children>
     </item>
-    <item nodeId="node-1238">
+    <item nodeId="node-1106">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Lobby
@@ -1093,28 +1093,28 @@ You can also see Chairs here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1239"></child>
+        <children><child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-1239">
+    <item nodeId="node-1107">
         <command xml:space="preserve">talk to cole</command>
         <result xml:space="preserve">The man turns toward you. "Hi, I'm Cole. I was called to bring in the new code for the safe. I was told to meet someone here I was in the area, so I decied to just come early.. I also was told there would be a pumpkin spice latte?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1240"></child>
+        <children><child nodeId="node-1108"></child>
         </children>
     </item>
-    <item nodeId="node-1240">
+    <item nodeId="node-1108">
         <command xml:space="preserve">give cole pumpkin spice latte</command>
         <result xml:space="preserve">You hand Cole the pumpkin spice latte and he says "Thanks, I love these things so much! The code is: 2145. See ya later."
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1241"></child>
+        <children><child nodeId="node-1109"></child>
         </children>
     </item>
-    <item nodeId="node-1241">
+    <item nodeId="node-1109">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Floor
@@ -1134,28 +1134,28 @@ You can also see Latte, Pumpkin spice, Milk, Espresso shots, Grounds and Beans h
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1242"></child>
+        <children><child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1110">
         <command xml:space="preserve">2145</command>
         <result xml:space="preserve">the safe unlocked with a click.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1243"></child>
+        <children><child nodeId="node-1111"></child>
         </children>
     </item>
-    <item nodeId="node-1243">
+    <item nodeId="node-1111">
         <command xml:space="preserve">open safe</command>
         <result xml:space="preserve">You open Safe, revealing Pay check.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1273"></child>
+        <children><child nodeId="node-1112"></child>
         </children>
     </item>
-    <item nodeId="node-1273">
+    <item nodeId="node-1112">
         <command xml:space="preserve">take pay check</command>
         <result xml:space="preserve">Your pay check sits there on the top of the stack. It looks like you got $500, more than enough for a new iphone 7s!
 
@@ -1170,173 +1170,173 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1113">
         <command xml:space="preserve">take milk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1081"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1114">
         <command xml:space="preserve">take beans</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1178"></child>
-            <child nodeId="node-1082"></child>
+        <children><child nodeId="node-1125"></child>
+            <child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1115">
         <command xml:space="preserve">put beans in grinder</command>
         <result xml:space="preserve">You put Beans into Grinder.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1116">
         <command xml:space="preserve">grind beans</command>
         <result xml:space="preserve">(in Milk)
 You can't combine Beans and Milk into anything useful.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1084"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1117">
         <command xml:space="preserve">grind beans in grinder</command>
         <result xml:space="preserve">You now have grounds!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1085"></child>
+        <children><child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1118">
         <command xml:space="preserve">take grounds</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1119">
         <command xml:space="preserve">put grounds in espresso machine</command>
         <result xml:space="preserve">You put grounds into Espresso Machine.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1120">
         <command xml:space="preserve">use espresso machine</command>
         <result xml:space="preserve">(with grounds)
 You now have espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1121">
         <command xml:space="preserve">use espresso machine and grounds</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1089"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1122">
         <command xml:space="preserve">use grounds</command>
         <result xml:space="preserve">(with grounds)
 You can't combine grounds and grounds into anything useful.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1123">
         <command xml:space="preserve">use grounds and espresso machine</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
+        <children><child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1124">
         <command xml:space="preserve">use grounds and espresso machine</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1178">
+    <item nodeId="node-1125">
         <command xml:space="preserve">grind bena</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1179"></child>
+        <children><child nodeId="node-1126"></child>
         </children>
     </item>
-    <item nodeId="node-1179">
+    <item nodeId="node-1126">
         <command xml:space="preserve">grind beans</command>
         <result xml:space="preserve">What do you want to grind Beans in?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1180"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-1180">
+    <item nodeId="node-1127">
         <command xml:space="preserve">grinder</command>
         <result xml:space="preserve">You now have Grounds!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1181"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-1181">
+    <item nodeId="node-1128">
         <command xml:space="preserve">use espresso machine</command>
         <result xml:space="preserve">(with Grounds)
 You now have Espresso shots!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1182"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-1182">
+    <item nodeId="node-1129">
         <command xml:space="preserve">combine shots and latte</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1183"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-1183">
+    <item nodeId="node-1130">
         <command xml:space="preserve">combine shots</command>
         <result xml:space="preserve">(with Milk)
 You now have Latte!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1184"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-1184">
+    <item nodeId="node-1131">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 cold room
@@ -1344,19 +1344,19 @@ This small room only hold an ice machine in the corner.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1185"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-1185">
+    <item nodeId="node-1132">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1186"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-1186">
+    <item nodeId="node-1133">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Back storage
@@ -1364,10 +1364,10 @@ Someone hasn't been ordering new ingredients! The shelves are completely empty, 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1187"></child>
+        <children><child nodeId="node-1134"></child>
         </children>
     </item>
-    <item nodeId="node-1187">
+    <item nodeId="node-1134">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Break room
@@ -1377,608 +1377,12 @@ There is a small orange post it on the desk. It reads: Heard you needed your pay
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1188"></child>
-        </children>
-    </item>
-    <item nodeId="node-1188">
-        <command xml:space="preserve">take key</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1189"></child>
-        </children>
-    </item>
-    <item nodeId="node-1189">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Back storage
-Someone hasn't been ordering new ingredients! The shelves are completely empty, and there is only a small cabinet in the corner that could possibly hold something useful.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1190"></child>
-        </children>
-    </item>
-    <item nodeId="node-1190">
-        <command xml:space="preserve">unlock cabinet</command>
-        <result xml:space="preserve">(with Key)
-You unlock Cabinet.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1191"></child>
-        </children>
-    </item>
-    <item nodeId="node-1191">
-        <command xml:space="preserve">open cabinet</command>
-        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1209"></child>
-        </children>
-    </item>
-    <item nodeId="node-1209">
-        <command xml:space="preserve">take pumpkin spice</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1210"></child>
-        </children>
-    </item>
-    <item nodeId="node-1210">
-        <command xml:space="preserve">combine pumpkin spice with latte</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1211"></child>
-        </children>
-    </item>
-    <item nodeId="node-1211">
-        <command xml:space="preserve">combine latte</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1212"></child>
-        </children>
-    </item>
-    <item nodeId="node-1212">
-        <command xml:space="preserve">combine pumpkin spice</command>
-        <result xml:space="preserve">What do you want to combine Pumpkin spice with?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1213"></child>
-        </children>
-    </item>
-    <item nodeId="node-1213">
-        <command xml:space="preserve">latte</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1214"></child>
-        </children>
-    </item>
-    <item nodeId="node-1214">
-        <command xml:space="preserve">i</command>
-        <result xml:space="preserve">You are carrying:
-  Pumpkin spice
-  Key
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1092">
-        <command xml:space="preserve">lobby</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
-        </children>
-    </item>
-    <item nodeId="node-1093">
-        <command xml:space="preserve">eas</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
-        </children>
-    </item>
-    <item nodeId="node-1094">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-cold room
-You can see Ice machine (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
-        </children>
-    </item>
-    <item nodeId="node-1095">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see pumkin spice latte here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1096"></child>
-        </children>
-    </item>
-    <item nodeId="node-1096">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Lobby
-The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
-
-Just a normal table.
-
-You can also see Chairs and Condiment here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1097"></child>
-        </children>
-    </item>
-    <item nodeId="node-1097">
-        <command xml:space="preserve">x</command>
-        <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1098"></child>
-        </children>
-    </item>
-    <item nodeId="node-1098">
-        <command xml:space="preserve">chairs</command>
-        <result xml:space="preserve">old but sturdy.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1099"></child>
-        </children>
-    </item>
-    <item nodeId="node-1099">
-        <command xml:space="preserve">x tables</command>
-        <result xml:space="preserve">You see nothing special about Tables.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1100"></child>
-        </children>
-    </item>
-    <item nodeId="node-1100">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see pumkin spice latte here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1101"></child>
-        </children>
-    </item>
-    <item nodeId="node-1101">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-cold room
-You can see Ice machine (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1102"></child>
-        </children>
-    </item>
-    <item nodeId="node-1102">
-        <command xml:space="preserve">open</command>
-        <result xml:space="preserve">(Ice machine)
-You open Ice machine, revealing ice.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
-        </children>
-    </item>
-    <item nodeId="node-1103">
-        <command xml:space="preserve">take ice</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1104"></child>
-        </children>
-    </item>
-    <item nodeId="node-1104">
-        <command xml:space="preserve">ice</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1105"></child>
-        </children>
-    </item>
-    <item nodeId="node-1105">
-        <command xml:space="preserve">x ice</command>
-        <result xml:space="preserve">You see nothing special about ice.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
-        </children>
-    </item>
-    <item nodeId="node-1106">
-        <command xml:space="preserve">x me</command>
-        <result xml:space="preserve">As good-looking as ever.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
-        </children>
-    </item>
-    <item nodeId="node-1107">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see pumkin spice latte here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
-        </children>
-    </item>
-    <item nodeId="node-1108">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Lobby
-The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
-
-Just a normal table.
-
-You can also see Chairs and Condiment here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
-        </children>
-    </item>
-    <item nodeId="node-1109">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see pumkin spice latte here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1110"></child>
-        </children>
-    </item>
-    <item nodeId="node-1110">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Lobby
-The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
-
-Just a normal table.
-
-You can also see Chairs and Condiment here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1111"></child>
-        </children>
-    </item>
-    <item nodeId="node-1111">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see pumkin spice latte here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1112"></child>
-        </children>
-    </item>
-    <item nodeId="node-1112">
-        <command xml:space="preserve">tke undo</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1113"></child>
-        </children>
-    </item>
-    <item nodeId="node-1113">
-        <command xml:space="preserve">undo</command>
-        <result xml:space="preserve">Floor
-[Previous turn undone.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1114"></child>
-        </children>
-    </item>
-    <item nodeId="node-1114">
-        <command xml:space="preserve">undo</command>
-        <result xml:space="preserve">Lobby
-[Previous turn undone.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1115"></child>
-        </children>
-    </item>
-    <item nodeId="node-1115">
-        <command xml:space="preserve">take pumpkin spice latte</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1116">
-        <command xml:space="preserve">grind beans in grinder</command>
-        <result xml:space="preserve">You now have shots!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1117">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-cold room
-You can see Ice machine (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1119"></child>
-            <child nodeId="node-1118"></child>
-        </children>
-    </item>
-    <item nodeId="node-1118">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1119">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Back storage
-You can see Cabinet (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1120"></child>
-        </children>
-    </item>
-    <item nodeId="node-1120">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Break room
-The famiiar space has a desk, and a coat rack in the corner. There is a lone apron hangind in the corner on the coat rack. There seems to be a pot it with writing on the desk.
-
-There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. His name is Riley. I promised him a pumpkin spice latte on the house, so make sure it is ready for him!
-
-You can also see apron (in which is Key) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1121"></child>
-        </children>
-    </item>
-    <item nodeId="node-1121">
-        <command xml:space="preserve">take key</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
-        </children>
-    </item>
-    <item nodeId="node-1122">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Back storage
-You can see Cabinet (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1123"></child>
-        </children>
-    </item>
-    <item nodeId="node-1123">
-        <command xml:space="preserve">ulock cabinet</command>
-        <result xml:space="preserve">That's not a verb I recognise.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1124"></child>
-        </children>
-    </item>
-    <item nodeId="node-1124">
-        <command xml:space="preserve">unlock cabinet</command>
-        <result xml:space="preserve">(with Key)
-You unlock Cabinet.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1125"></child>
-        </children>
-    </item>
-    <item nodeId="node-1125">
-        <command xml:space="preserve">take psl</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1126"></child>
-        </children>
-    </item>
-    <item nodeId="node-1126">
-        <command xml:space="preserve">take pumpkin spice</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1127"></child>
-        </children>
-    </item>
-    <item nodeId="node-1127">
-        <command xml:space="preserve">open cabinet</command>
-        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1128"></child>
-        </children>
-    </item>
-    <item nodeId="node-1128">
-        <command xml:space="preserve">take pumpin spice</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1129"></child>
-        </children>
-    </item>
-    <item nodeId="node-1129">
-        <command xml:space="preserve">take pumpkin spice</command>
-        <result xml:space="preserve">Taken.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1130"></child>
-        </children>
-    </item>
-    <item nodeId="node-1130">
-        <command xml:space="preserve"></command>
-        <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1131"></child>
-        </children>
-    </item>
-    <item nodeId="node-1131">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-cold room
-You can see Ice machine (closed) here.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1132"></child>
-        </children>
-    </item>
-    <item nodeId="node-1132">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Floor
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-The readied espresso beans sit waiting to be used on the counter.
-
-The clean espresso bean grinder sits next to the espresso machine.
-
-On Counter are register (closed) and Espresso Machine (empty).
-
-The cleaned fridge is right udnerneath the counter.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1133"></child>
-        </children>
-    </item>
-    <item nodeId="node-1133">
-        <command xml:space="preserve">take espresso shot</command>
-        <result xml:space="preserve">You can't see any such thing.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1134"></child>
-        </children>
-    </item>
-    <item nodeId="node-1134">
-        <command xml:space="preserve">undo</command>
-        <result xml:space="preserve">Floor
-[Previous turn undone.]
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1135"></child>
         </children>
     </item>
     <item nodeId="node-1135">
-        <command xml:space="preserve">open fridge</command>
-        <result xml:space="preserve">You open Fridge, revealing Milk.
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1986,8 +1390,10 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1136">
-        <command xml:space="preserve">take milk</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Back storage
+Someone hasn't been ordering new ingredients! The shelves are completely empty, and there is only a small cabinet in the corner that could possibly hold something useful.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1995,8 +1401,9 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1137">
-        <command xml:space="preserve">take beans</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">unlock cabinet</command>
+        <result xml:space="preserve">(with Key)
+You unlock Cabinet.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2004,8 +1411,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1138">
-        <command xml:space="preserve">grind beans</command>
-        <result xml:space="preserve">What do you want to grind Beans in?
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2013,8 +1420,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1139">
-        <command xml:space="preserve">in grinder</command>
-        <result xml:space="preserve">I only understood you as far as wanting to grind Beans in inside.
+        <command xml:space="preserve">take pumpkin spice</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2022,8 +1429,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1140">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">combine pumpkin spice with latte</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2031,7 +1438,7 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1141">
-        <command xml:space="preserve">grind bean</command>
+        <command xml:space="preserve">combine latte</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
@@ -2040,8 +1447,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1142">
-        <command xml:space="preserve">grind beans</command>
-        <result xml:space="preserve">What do you want to grind Beans in?
+        <command xml:space="preserve">combine pumpkin spice</command>
+        <result xml:space="preserve">What do you want to combine Pumpkin spice with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2049,8 +1456,8 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1143">
-        <command xml:space="preserve">grinder</command>
-        <result xml:space="preserve">You now have Grounds!
+        <command xml:space="preserve">latte</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2058,18 +1465,17 @@ The cleaned fridge is right udnerneath the counter.
         </children>
     </item>
     <item nodeId="node-1144">
-        <command xml:space="preserve">tke grounds</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Pumpkin spice
+  Key
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1145"></child>
-        </children>
     </item>
     <item nodeId="node-1145">
-        <command xml:space="preserve">use espresso machine</command>
-        <result xml:space="preserve">(with Grounds)
-You now have Espresso shots!
+        <command xml:space="preserve">lobby</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2077,8 +1483,8 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1146">
-        <command xml:space="preserve">take shots</command>
-        <result xml:space="preserve">Taken.
+        <command xml:space="preserve">eas</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2086,8 +1492,10 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1147">
-        <command xml:space="preserve">combine shots</command>
-        <result xml:space="preserve">What do you want to combine Espresso shots with?
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+cold room
+You can see Ice machine (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2095,8 +1503,20 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1148">
-        <command xml:space="preserve">milk</command>
-        <result xml:space="preserve">You now have Latte!
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Floor
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see pumkin spice latte here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2104,24 +1524,6 @@ You now have Espresso shots!
         </children>
     </item>
     <item nodeId="node-1149">
-        <command xml:space="preserve">combine latte</command>
-        <result xml:space="preserve">What do you want to combine Latte with?
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1150"></child>
-        </children>
-    </item>
-    <item nodeId="node-1150">
-        <command xml:space="preserve">pumpkin spice</command>
-        <result xml:space="preserve">You now have Pumpkin spice latte!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1151"></child>
-        </children>
-    </item>
-    <item nodeId="node-1151">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Lobby
@@ -2133,22 +1535,30 @@ You can also see Chairs and Condiment here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">chairs</command>
+        <result xml:space="preserve">old but sturdy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1152"></child>
         </children>
     </item>
     <item nodeId="node-1152">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Floor
-The clean espresso bean grinder sits next to the espresso machine.
-
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-On Counter is register (closed).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+        <command xml:space="preserve">x tables</command>
+        <result xml:space="preserve">You see nothing special about Tables.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2158,8 +1568,18 @@ You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso M
     <item nodeId="node-1153">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
-cold room
-You can see Ice machine (closed) here.
+Floor
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see pumkin spice latte here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2167,18 +1587,10 @@ You can see Ice machine (closed) here.
         </children>
     </item>
     <item nodeId="node-1154">
-        <command xml:space="preserve">w</command>
+        <command xml:space="preserve">e</command>
         <result xml:space="preserve">
-Floor
-The clean espresso bean grinder sits next to the espresso machine.
-
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-On Counter is register (closed).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+cold room
+You can see Ice machine (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2186,14 +1598,9 @@ You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso M
         </children>
     </item>
     <item nodeId="node-1155">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Lobby
-The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
-
-Just a normal table.
-
-You can also see Chairs and Condiment here.
+        <command xml:space="preserve">open</command>
+        <result xml:space="preserve">(Ice machine)
+You open Ice machine, revealing ice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2201,18 +1608,8 @@ You can also see Chairs and Condiment here.
         </children>
     </item>
     <item nodeId="node-1156">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Floor
-The clean espresso bean grinder sits next to the espresso machine.
-
-Your coworker stands next to the register, waiting for another customer to arrive.
-
-On Counter is register (closed).
-
-The cleaned fridge is right udnerneath the counter.
-
-You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+        <command xml:space="preserve">take ice</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2220,14 +1617,8 @@ You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso M
         </children>
     </item>
     <item nodeId="node-1157">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Lobby
-The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
-
-Just a normal table.
-
-You can also see Chairs and Condiment here.
+        <command xml:space="preserve">ice</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2235,10 +1626,8 @@ You can also see Chairs and Condiment here.
         </children>
     </item>
     <item nodeId="node-1158">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Patio
-You can see Wicker chairs and Metal table here.
+        <command xml:space="preserve">x ice</command>
+        <result xml:space="preserve">You see nothing special about ice.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2246,14 +1635,8 @@ You can see Wicker chairs and Metal table here.
         </children>
     </item>
     <item nodeId="node-1159">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Lobby
-The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
-
-Just a normal table.
-
-You can also see Chairs and Condiment here.
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">As good-looking as ever.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2261,18 +1644,20 @@ You can also see Chairs and Condiment here.
         </children>
     </item>
     <item nodeId="node-1160">
-        <command xml:space="preserve">e</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Floor
-The clean espresso bean grinder sits next to the espresso machine.
-
 Your coworker stands next to the register, waiting for another customer to arrive.
 
-On Counter is register (closed).
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
 
 The cleaned fridge is right udnerneath the counter.
 
-You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+You can also see pumkin spice latte here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2298,15 +1683,17 @@ You can also see Chairs and Condiment here.
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Floor
-The clean espresso bean grinder sits next to the espresso machine.
-
 Your coworker stands next to the register, waiting for another customer to arrive.
 
-On Counter is register (closed).
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
 
 The cleaned fridge is right udnerneath the counter.
 
-You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+You can also see pumkin spice latte here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2332,6 +1719,619 @@ You can also see Chairs and Condiment here.
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Floor
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see pumkin spice latte here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1165"></child>
+        </children>
+    </item>
+    <item nodeId="node-1165">
+        <command xml:space="preserve">tke undo</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1166"></child>
+        </children>
+    </item>
+    <item nodeId="node-1166">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Floor
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1167"></child>
+        </children>
+    </item>
+    <item nodeId="node-1167">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Lobby
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1168"></child>
+        </children>
+    </item>
+    <item nodeId="node-1168">
+        <command xml:space="preserve">take pumpkin spice latte</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1169">
+        <command xml:space="preserve">grind beans in grinder</command>
+        <result xml:space="preserve">You now have shots!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1170">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+cold room
+You can see Ice machine (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1172"></child>
+            <child nodeId="node-1171"></child>
+        </children>
+    </item>
+    <item nodeId="node-1171">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Floor
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
+
+The cleaned fridge is right udnerneath the counter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Back storage
+You can see Cabinet (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Break room
+The famiiar space has a desk, and a coat rack in the corner. There is a lone apron hangind in the corner on the coat rack. There seems to be a pot it with writing on the desk.
+
+There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. His name is Riley. I promised him a pumpkin spice latte on the house, so make sure it is ready for him!
+
+You can also see apron (in which is Key) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1174"></child>
+        </children>
+    </item>
+    <item nodeId="node-1174">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1175"></child>
+        </children>
+    </item>
+    <item nodeId="node-1175">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Back storage
+You can see Cabinet (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1176"></child>
+        </children>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">ulock cabinet</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1177"></child>
+        </children>
+    </item>
+    <item nodeId="node-1177">
+        <command xml:space="preserve">unlock cabinet</command>
+        <result xml:space="preserve">(with Key)
+You unlock Cabinet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1178"></child>
+        </children>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">take psl</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1179"></child>
+        </children>
+    </item>
+    <item nodeId="node-1179">
+        <command xml:space="preserve">take pumpkin spice</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1180"></child>
+        </children>
+    </item>
+    <item nodeId="node-1180">
+        <command xml:space="preserve">open cabinet</command>
+        <result xml:space="preserve">You open Cabinet, revealing Pumpkin spice.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1181"></child>
+        </children>
+    </item>
+    <item nodeId="node-1181">
+        <command xml:space="preserve">take pumpin spice</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1182"></child>
+        </children>
+    </item>
+    <item nodeId="node-1182">
+        <command xml:space="preserve">take pumpkin spice</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1183"></child>
+        </children>
+    </item>
+    <item nodeId="node-1183">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1184"></child>
+        </children>
+    </item>
+    <item nodeId="node-1184">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+cold room
+You can see Ice machine (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1185"></child>
+        </children>
+    </item>
+    <item nodeId="node-1185">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Floor
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+The readied espresso beans sit waiting to be used on the counter.
+
+The clean espresso bean grinder sits next to the espresso machine.
+
+On Counter are register (closed) and Espresso Machine (empty).
+
+The cleaned fridge is right udnerneath the counter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1186"></child>
+        </children>
+    </item>
+    <item nodeId="node-1186">
+        <command xml:space="preserve">take espresso shot</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1187"></child>
+        </children>
+    </item>
+    <item nodeId="node-1187">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Floor
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">take beans</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">What do you want to grind Beans in?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">in grinder</command>
+        <result xml:space="preserve">I only understood you as far as wanting to grind Beans in inside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">grind bean</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">What do you want to grind Beans in?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have Grounds!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">tke grounds</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">use espresso machine</command>
+        <result xml:space="preserve">(with Grounds)
+You now have Espresso shots!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">take shots</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">combine shots</command>
+        <result xml:space="preserve">What do you want to combine Espresso shots with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">milk</command>
+        <result xml:space="preserve">You now have Latte!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">combine latte</command>
+        <result xml:space="preserve">What do you want to combine Latte with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">pumpkin spice</command>
+        <result xml:space="preserve">You now have Pumpkin spice latte!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lobby
+The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
+
+Just a normal table.
+
+You can also see Chairs and Condiment here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor
+The clean espresso bean grinder sits next to the espresso machine.
+
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+On Counter is register (closed).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+cold room
+You can see Ice machine (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Floor
+The clean espresso bean grinder sits next to the espresso machine.
+
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+On Counter is register (closed).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lobby
+The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
+
+Just a normal table.
+
+You can also see Chairs and Condiment here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+        </children>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor
+The clean espresso bean grinder sits next to the espresso machine.
+
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+On Counter is register (closed).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lobby
+The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
+
+Just a normal table.
+
+You can also see Chairs and Condiment here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1211"></child>
+        </children>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Patio
+You can see Wicker chairs and Metal table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lobby
+The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
+
+Just a normal table.
+
+You can also see Chairs and Condiment here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor
+The clean espresso bean grinder sits next to the espresso machine.
+
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+On Counter is register (closed).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lobby
+The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
+
+Just a normal table.
+
+You can also see Chairs and Condiment here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor
+The clean espresso bean grinder sits next to the espresso machine.
+
+Your coworker stands next to the register, waiting for another customer to arrive.
+
+On Counter is register (closed).
+
+The cleaned fridge is right udnerneath the counter.
+
+You can also see Pumpkin spice, Latte, Milk, Espresso shots, Grounds, Espresso Machine (empty) and Beans here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Lobby
+The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today.
+
+Just a normal table.
+
+You can also see Chairs and Condiment here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor
 The clean espresso bean grinder sits next to the espresso machine.
 
 Your coworker stands next to the register, waiting for another customer to arrive.
@@ -2347,7 +2347,7 @@ An important looking man just walked into the lobby, it might be Riley with the 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1165">
+    <item nodeId="node-1218">
         <command xml:space="preserve">combining</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
