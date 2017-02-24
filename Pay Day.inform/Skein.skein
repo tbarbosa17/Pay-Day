@@ -39,6 +39,7 @@ The cleaned fridge is right underneath the counter.
             <child nodeId="node-1071"></child>
             <child nodeId="node-1068"></child>
             <child nodeId="node-1067"></child>
+            <child nodeId="node-1221"></child>
             <child nodeId="node-1042"></child>
             <child nodeId="node-1004"></child>
             <child nodeId="node-1003"></child>
@@ -700,6 +701,58 @@ You can see Cabinet (closed) here.
         <command xml:space="preserve">latte</command>
         <result xml:space="preserve">You now have Pumpkin spice latte!
 An important looking man just walked into the lobby, it might be Riley with the code!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">take beans</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">open fridge</command>
+        <result xml:space="preserve">You open Fridge, revealing Milk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">take milk</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">grind beans</command>
+        <result xml:space="preserve">What do you want to grind Beans in?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">grinder</command>
+        <result xml:space="preserve">You now have Grounds!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">talk to patrick</command>
+        <result xml:space="preserve">Patrick turns toward you and says cheerfully "Hey good to see you again! I think that the boss man left a note for you in the break room, something about a guy coming in to drop off the new safe code?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
