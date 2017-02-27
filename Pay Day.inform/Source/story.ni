@@ -17,7 +17,7 @@ Rule for deciding whether all includes something: it does not.
 
 When play begins:
 	now the right hand status line is "[time of day]";
-	now time of day is 11:30 am.
+	now time of day is 10:45 am.
 	
 Before looking or taking inventory:
 	 now the time of day is one minute before the time of day.
@@ -27,13 +27,15 @@ At 1:15 pm:
 		end the story saying "You didn't have make the pumpkin spice latte in time for Cole!"
 [time from inform handbook by Jim Aikin.]
 	
+At 1:00 pm:
+	say "You only have 15 minutes before Cole arrives! Better make that pumpkin spice latte quick!"
 
 
 When play begins: say "It's only your second week working at the iconic starbucks, but you desperatey need your pay check. There is an unbeatable deal on the new iphone 7s, but you need your paycheck to pay for it! Someone changed the four number code to the safe, unfortunately, no one knows the new code to the safe. You need to find the code in order to get your paycheck and the sweet deal on the iphone 7s..."
 
 The description of player is "You have a green starbucks apron on, and you are stylishly dressed in all black."
 
-Floor is a room. "You are in a clean, open room with various coffee machines and aparatuses. Your co worker stands by the register in the room."
+Floor is a room. "You are in a clean, open room with various coffee machines and aparatuses. Your co worker, Patrick, stands by the register in the room."
 Patrick is a man in Floor."Your coworker stands next to the register, waiting for another customer to arrive."
 
 Talking to is an action applying to one visible thing.
@@ -59,7 +61,11 @@ Latte is a thing in floor. latte is undescribed. The description of latte is "Ju
 Grounds is a thing in floor. grounds is undescribed. The description of grounds is "The beans in their finer form.".
 Psl is a thing. psl is in floor. psl is undescribed. The printed name of psl is "Pumpkin spice latte". Understand "pumpkin spice latte" as psl.
 [puzzle #3]
-Safe is a container. Safe is in the floor. Safe is openable and closed. Safe is lockable and locked. Safe is undescribed. The description of safe is "A black code safe. It looks like you need a code to unlock it. The instructions read: enter code, then open door."
+Safe is a container. Safe is in the floor. Safe is openable and closed. Safe is lockable and locked. The description of safe is "A black code safe. It looks like you need a code to unlock it. The instructions read: enter code, then open door."
+
+Instead of opening register:
+	say "There is money and a paper here. Something sees to be written on the paper.";
+	now register is open.
 
 Coding is an action applying to nothing.
 Understand "2145" or "type 2145" or "enter 2145" as coding.
@@ -103,7 +109,7 @@ Carry out combining it with:
 Report combining it with: 
 	say "You now have [an item built]!";
 	if item built is psl:
-		say "An important looking man just walked into the lobby, it might be Cole with the code!"
+		say "An important looking man just walked into the LOBBY, it might be Cole with the code!"
 	[taken from assassin.]
 
 	
@@ -118,20 +124,21 @@ component list			result
 
 Lobby is a room. Lobby is west of Floor.
 "The lobby is filled with chairs, tables, and a condiment bar. Oddly enough there are no customers hanging here out today."
-
 	
 Chairs is an enterable supporter in lobby. The description of chairs is "old but sturdy."
 Tables is a supporter in lobby. The description of table is "Just a normal table."
 Condiment bar is a supporter in lobby. Condiment bar is undescribed. The description of condiment bar is "a clean marble surface."
 Cole is a man. Cole is in lobby. Cole is undescribed. "A tall man with blond hair and sunglasses."
+Code is a thing. Code is in lobby. Code is undescribed.  The description of code is "2145"
 
 
 Instead of talking to cole:
 	say "The man turns toward you. 'Hi, I'm Cole. I was called to bring in the new code for the safe. I was told to meet someone here I was in the area, so I decided to come by. I also was told there would be a pumpkin spice latte?"
 	
 	
-Instead of giving psl to Cole: say "You hand Cole the pumpkin spice latte and he says 'Thanks, I love these things so much! The code is: 2145. See ya later.'";
+Instead of giving psl to Cole: say "You hand Cole the pumpkin spice latte and he says 'Thanks, I love these things so much! The code is: 2145, its on this note. See ya later.' He hands you a piece of paper with the code and walks out.";
 	move psl to Cole;
+	move code to player;
 	move Cole to Dump.
 
 
@@ -154,25 +161,26 @@ Trash is a thing. Trash is in Dumpster. Trash is undescribed. The description of
 
 cold room is a room. cold room is east of floor. The description of cold room is "This small room only hold an ice machine in the corner."
 Ice is a thing. ice is inside icemachine.  ice is undescribed.The description of ice is "cold and dry."
-Icemachine is container in cold room. Icemachine is openable and closed. The printed name of Icemachine is "Ice machine". Understand "ice machine" as icemachine. Icemachine is undescribed. The description of icemachine is "A big silver metal machine."
+Icemachine is container in cold room. Icemachine is openable and closed. The printed name of Icemachine is "Ice machine". Understand "ice machine" as icemachine. Icemachine is undescribed. The description of icemachine is "A big silver metal machine. It appears to be closed."
 
 
 
 Back storage is a room. Back storage is north of cold room. "Someone hasn't been ordering new ingredients! The shelves are completely empty, and there is only a small cabinet in the corner that could possibly hold something useful."
 Shelves is a supporter. Shelves is in Back storage. Shelves is scenery. The description of shelves is "Nothing special here. Just some empty metal shelves."
-Cabinet is a container. cabinet is in Back storage. cabinet is openable and closed. Cabinet is lockable and locked. cabinet is undescribed. The description of cabinet is "There seems to be something important in the cabinet, but its locked."
+Cabinet is a container. cabinet is in Back storage. cabinet is openable and closed. Cabinet is lockable and locked. cabinet is undescribed. The description of cabinet is "There seems to be something important in the cabinet, but its locked." Understand "small cabinet" as cabinet.
 [PUZZLE #2: Finidng key and getting pumpkin spice]
 Pumpkin spice is a thing. Pumpkin spice is in Cabinet. The description of pumpkin spice is "a orange liquid that smells of fall."
 
 
 
-Break room is a room. Break room is east of back storage. "The familiar space has a desk, and a coat rack in the corner. There is a lone apron hanging in the corner on the coat rack. There seems to be a pot it with writing on the desk."
-Post-it is thing in Break room. "There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. His name is Cole. I promised him a pumpkin spice latte on the house, so make sure it is ready for him!"
-Apron is a container. Apron is in break room. Apron is openable and open. Apron is undescribed. The description of apron is "A green apron. There seems to be a key in the pocket. It might come in handy later."
+Break room is a room. Break room is east of back storage. "The familiar space has a desk, and a coat rack in the corner. There is a lone apron hanging in the corner on the coat rack. There seems to be a post-it with writing on the desk."
+Post-it is thing in Break room. "There is a small orange post it on the desk. It reads: Heard you needed your paycheck, so I looked into changing the safe code. There should be a man coming in around 1:15 to change the code. His name is Cole. I promised him a PUMPKIN SPICE LATTE on the house, so make sure it is ready for him!"
+Apron is a container. Apron is in break room. Apron is openable and open. Apron is undescribed. Apron is wearable. The description of apron is "A green apron. There seems to be a key in the pocket. It might come in handy later."
 Key unlocks cabinet. Key is in apron. key is undescribed. The description of key is "A shiny silver key. It looks like it might unlock something important."
+Coat rack is a thing. Coat rack is undescribed. The description of coat rack is "Just an ordinary coat rack."
 
-
-
+Instead of wearing apron:
+	say "You put the apron on. There seems to be something in it. It feels like a key."
 Dish room is a room. Dish room is south of break room. "There is a sink with a lot of diches in it. They look dirty."
 Dishes is a thing in dish room. Dishes is undescribed. The description of dishes is "nothing special about the dishes."
 
